@@ -19,7 +19,7 @@ public class ReadFile {
         return lines;
     }
     public static void main(String[] args) {
-        String filename = "input.txt";
+        String filename = "Text.txt";
         try{
         String[] lines = readFile(filename);
         for(String line : lines){

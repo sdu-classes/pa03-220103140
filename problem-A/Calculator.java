@@ -22,15 +22,7 @@ public class Calculator {
         if(a < 0 || b < 0)throw new ArithmeticException();
         return a + b;
     }
-    public int Add(int a, int b) throws ArithmeticException{
-        if(a < 0 || b < 0)throw new ArithmeticException();
-        return a + b;
-    }
     public int Subtract(){
-        if(a < 0 || b < 0)throw new ArithmeticException();
-        return a - b;
-    }
-    public int Subtract(int a, int b){
         if(a < 0 || b < 0)throw new ArithmeticException();
         return a - b;
     }
@@ -38,15 +30,7 @@ public class Calculator {
         if(a == 0 || b == 0)throw new ArithmeticException();
         return a * b;
     }
-    public int Multiplay(int a, int b){
-        if(a == 0 || b == 0)throw new ArithmeticException();
-        return a * b;
-    }
     public int Divison(){
-        if(a == 0 || b == 0)throw new ArithmeticException();
-        return a / b;
-    }
-    public int Divison(int a, int b){
         if(a == 0 || b == 0)throw new ArithmeticException();
         return a / b;
     }
